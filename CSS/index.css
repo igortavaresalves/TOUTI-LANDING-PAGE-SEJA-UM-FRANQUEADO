@@ -59,7 +59,7 @@ section {
 
 .info-banner {
     margin-left: min(2vw, 4vw);
-    margin-top: max(1rem, 4vw);
+    margin-top: max(2rem, 2vw);
     max-width: 40rem;
     display: flex;
     flex-direction: column;
