@@ -209,16 +209,9 @@ section, .container {
 
 }
 
-/* senction 3 */
-.bg-image {
-    background-image: url('../assets/images/quadrados.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 100%;
-    min-height: 100vh;
+.click-me {}
 
-}
+/* senction 3 */
 
 .investment {
     display: flex;
