@@ -45,11 +45,37 @@ section, .container {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 5rem 0;
 }
 
 .container {
     max-width: 140rem;
     padding: 0 2rem;
+
+}
+
+.click-me {
+    width: max(40vw, 30rem);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: yellow;
+    margin: 2rem auto;
+    transition: all 0.3s;
+    border: solid 1px rgb(221, 221, 4);
+    cursor: pointer;
+}
+
+.click-me:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 60px 3px yellow;
+}
+
+
+.click-me a {
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -209,7 +235,6 @@ section, .container {
 
 }
 
-.click-me {}
 
 /* senction 3 */
 
@@ -246,11 +271,19 @@ section, .container {
 }
 
 /* section 4 */
+.section-4 {
+    flex-direction: column;
+}
 
 .expansion {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.expansion button {
+    width: 100%;
+
 }
 
 .expansion h3 {
@@ -290,11 +323,6 @@ section, .container {
     place-items: center;
     row-gap: 3rem;
     width: 100%;
-
-}
-
-.testimony h2 {
-    align-self: end;
 
 }
 
@@ -390,6 +418,9 @@ section, .container {
 
 @media screen and (max-width: 558px) {
 
+    section, .container {
+        margin: 0;
+    }
 
     .benefits img {
         max-width: 35rem;
