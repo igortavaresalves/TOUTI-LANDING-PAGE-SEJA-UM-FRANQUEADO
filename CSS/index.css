@@ -469,7 +469,7 @@ section, .container {
     }
 
     .choice {
-        grid-template-rows: 30% 50%;
+        grid-template-rows: 1fr;
         row-gap: 0;
     }
 
