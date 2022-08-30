@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxmum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxmum-scale=1.0, user-scalable=no" />
     <meta property="og:title" content="Seja um franqueado" />
-    <meta property="og:url" content="https://manemaria.github.io/TOUTI-LANDING-PAGE-SEJA-UM-FRANQUEADO/" />
-    <meta property="og:image" content="/assets/imagesQUIOSQUE FULL/01.png" />
+    <meta property="og:image" content="/assets/images/LOJA/loja1.jpeg" />
+    <meta property="og:description" content="SUA INDEPENDÊNCIA FINANCEIRA ESTÁ AQUI!" />
+    <meta property="og:locale" content="pt_BR" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/swiper.sytles.css">
 
 
     <title>Seja um franqueado</title>
-    <link rel="stylesheet" href="CSS/index.css">
 </head>
 
 <body>
@@ -43,7 +46,7 @@
                         <img src="/assets/images/QUIOSQUE.png" alt="Quiosque-smart" class="quiosque-smart" />
                     </div>
                 </div>
-                <div class="formulario-bitrix">
+                <div class="formulario-bitrix" id="form">
                     <script data-b24-form="inline/25/pm9p59" data-skip-moving="true">
                         (function (w, d, u) {
                             var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0);
@@ -57,7 +60,7 @@
         <section>
             <div class="container benefits">
                 <div>
-                    <div>
+                    <div class="benefits-wrapper-img">
                         <img src="/assets/images/SUPORTE-TOUTI.png" alt="suport">
                     </div>
                     <h3>
@@ -69,7 +72,7 @@
                     <div>
                         <div>
                             <div class="wrapper-benefits margin-1" data-aos="fade-right" data-aos-delay="50">
-                                <img src="/assets/icons/ASSESSORIA.png" alt="vantagem 1" />
+                                <img src="/assets/icons/branco/localização.png" alt="vantagem 1" />
                                 <p>Assessoria na escolha</p>
                                 <p>do ponto comercial.</p>
                             </div>
@@ -78,7 +81,7 @@
                     <div>
                         <div>
                             <div class="wrapper-benefits margin-2" data-aos="fade-right" data-aos-delay="100">
-                                <img src="/assets/icons/TREINAMENTO.png" alt="vantagem 2" />
+                                <img src="/assets/icons/branco/treinamentos.png" alt="vantagem 2" />
                                 <p>Treinamento e</p>
                                 <p>suporte em gestão e</p>
                                 <p>operação do negócio.</p>
@@ -88,7 +91,7 @@
                     <div>
                         <div>
                             <div class="wrapper-benefits margin-3" data-aos="fade-right" data-aos-delay="150">
-                                <img src="/assets/icons/DESENVOLVIMENTO.png" alt="vantagem 3" />
+                                <img src="/assets/icons/branco/ideias produtivas.png" alt="vantagem 3" />
                                 <p>Desenvolvimento e</p>
                                 <p>lançamento de novos</p>
                                 <p>produtos.</p>
@@ -99,7 +102,7 @@
                     <div>
                         <div>
                             <div class="wrapper-benefits margin-4" data-aos="fade-right" data-aos-delay="200">
-                                <img src="/assets/icons/APOIO.png" alt="vantagem 4" />
+                                <img src="/assets/icons/branco/fechar negócios.png" alt="vantagem 4" />
                                 <p>Apoio na manipulação</p>
                                 <p>e inauguração</p>
                                 <p>da unidade.</p>
@@ -109,15 +112,15 @@
                     <div>
                         <div>
                             <div class="wrapper-benefits margin-5" data-aos="fade-right" data-aos-delay="250">
-                                <img src="/assets/icons/SUPERVISÃO DE PROCESSOS.png" alt="vantagem 5" />
+                                <img src="/assets/icons/branco/check.png" alt="vantagem 5" />
                                 <p>Supervisão de</p>
                                 <p>processos comerciais.</p>
                             </div>
                         </div>
                     </div>
                     <button type="button" class="click-me">
-                        <a href="https://github.com/ManeMaria" target="_blank">
-                            ser um franqueado
+                        <a href="#form">
+                            seja um franqueado
                         </a>
                     </button>
                 </div>
@@ -130,7 +133,7 @@
                 </div>
                 <div class="investment-wrapper">
                     <div data-aos="fade-up-right">
-                        <img src="/assets/icons/brasil.png" alt="brasil" />
+                        <img src="/assets/icons/branco/mapa do brasil.png" alt="brasil" />
                         <p>
                             O Brasil e o segundo maior consumidor de perfumaria do mundo ficando atrás somente da
                             Itália.
@@ -138,19 +141,20 @@
                         </p>
                     </div>
                     <div data-aos="flip-up">
-                        <img src="/assets/icons/investimento.png" alt="investimento">
-                        <p>O setor de perfumaria e cosméticos fatura por ano a incrível marca de mais de R$ 120 Bilhões</p>
+                        <img src="/assets/icons/branco/crescimento financeiro.png" alt="investimento">
+                        <p>O setor de perfumaria e cosméticos fatura por ano a incrível marca de mais de R$ 120 Bilhões
+                        </p>
                     </div>
                     <div data-aos="fade-up-left">
-                        <img src="/assets/icons/pessoas.png" alt="pessoas">
+                        <img src="/assets/icons/branco/união.png" alt="pessoas">
                         <p>As vendas de cosméticos crescem aproximadamente 13% ao ano. Um estudo feita pelo IBGE revelou
                             que o brasileiro gasta
                             mais com beleza do que com comida.</p>
                     </div>
                 </div>
                 <button type="button" class="click-me">
-                    <a href="https://github.com/ManeMaria" target="_blank">
-                        ser um fraqueado
+                    <a href="#form" target="_blank">
+                        seja um franqueado
                     </a>
                 </button>
             </div>
@@ -160,8 +164,7 @@
                 <div class="expansion-wrapper">
                     <div>
                         <div>
-                            <img class="icon-process" src="/assets/images/PROCESSO DE EXPANSÃO.png"
-                                alt="processo de expansão" />
+                            <img class="icon-process" src="/assets/images/EXPANSÃO.png" alt="processo de expansão" />
                         </div>
                         <h3>
                             Com mais de 450 unidades no Brasil, presente em todos os estados Brasileiros, a Touti é uma
@@ -181,15 +184,15 @@
 
             </div>
             <button type="button" class="click-me">
-                <a href="https://github.com/ManeMaria" target="_blank">
-                    ser um fraqueado
+                <a href="#form">
+                    seja um franqueado
                 </a>
             </button>
         </section>
         <section>
             <div class="testimony container">
                 <h2>
-                    Depoimentos
+                    <img src="/assets/images/depoimentos_optimized.png" />
                 </h2>
                 <div>
                     <p>Ao longo desses anos, a Touti além de se tornar uma das maiores micro franquias do Brasil, vem
@@ -201,8 +204,8 @@
                         allowfullscreen></iframe>
                 </div>
                 <button type="button" class="click-me">
-                    <a href="https://github.com/ManeMaria" target="_blank">
-                        ser um fraqueado
+                    <a href="#form">
+                        seja um franqueado
                     </a>
                 </button>
             </div>
@@ -210,17 +213,20 @@
         <section>
             <div class="choice container ">
                 <div class="border-gold">
-                    <h2>
-                        Escolha um dos nosso modelos de Franquia
-                    </h2>
+                    <div>
+                        <img class="icon-process" src="/assets/images/FRANQUIAS.png" alt="processo de expansão" />
+                    </div>
                 </div>
-                <div class="wrapper-choice  swiper">
-                    <div class="swiper-wrapper">
-                        <div class="card swiper-slide">
-                            <h3>quiosque smart</h3>
-                            <div class="wrapper-info">
-                                <img src="/assets/images/QUIOSQUE.png" alt="quiosque">
-                                <div>
+                <!-- carousel one -->
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/SMART/SMART.jpg" alt="quiosque" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Quiosque smart</div>
+                                <div class="blog-slider__text">
                                     <p>Taxa de Franquia: R$5.000,00</p>
                                     <p>Quiosque: Isento</p>
                                     <p>Aluguel mensal: R$1.000,00</p>
@@ -232,11 +238,58 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card swiper-slide">
-                            <h3>quiosque full</h3>
-                            <div class="wrapper-info">
-                                <img src="/assets/images/quiosque-full.png" alt="quiosque full">
-                                <div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/SMART/02.png" alt="smart 2" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Quiosque smart</div>
+                                <div class="blog-slider__text">
+                                    <p>Taxa de Franquia: R$5.000,00</p>
+                                    <p>Quiosque: Isento</p>
+                                    <p>Aluguel mensal: R$1.000,00</p>
+                                    <p>Produtos: R$5.000,00</p>
+                                    <p>Capital de Giro: A partir de R$2.000,00</p>
+                                    <br />
+                                    <p>TOTAL: R$ 12.000,00</p>
+                                    <p class="obs">*Varia de acordo com a região</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/SMART/03.png" alt="smart 3" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Quiosque smart</div>
+                                <div class="blog-slider__text">
+                                    <p>Taxa de Franquia: R$5.000,00</p>
+                                    <p>Quiosque: Isento</p>
+                                    <p>Aluguel mensal: R$1.000,00</p>
+                                    <p>Produtos: R$5.000,00</p>
+                                    <p>Capital de Giro: A partir de R$2.000,00</p>
+                                    <br />
+                                    <p>TOTAL: R$ 12.000,00</p>
+                                    <p class="obs">*Varia de acordo com a região</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blog-slider__pagination"></div>
+                </div>
+                <!-- carousel one -->
+
+                <!-- carousel two -->
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/FULL/01.jpg" alt="quiosque">
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Quiosque full</div>
+                                <div class="blog-slider__text">
                                     <p>Taxa de Franquia: R$20.000,00</p>
                                     <p>Quiosque: Isento</p>
                                     <p>Aluguel mensal: R$1.000,00</p>
@@ -249,11 +302,61 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card swiper-slide">
-                            <h3>loja touti</h3>
-                            <div class="wrapper-info">
-                                <img src="/assets/images/loja-full.png" alt="">
-                                <div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/FULL/02.jpg" alt="quiosque 2" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Quiosque full</div>
+                                <div class="blog-slider__text">
+                                    <p>Taxa de Franquia: R$20.000,00</p>
+                                    <p>Quiosque: Isento</p>
+                                    <p>Aluguel mensal: R$1.000,00</p>
+                                    <p>Produtos:R$20.000,00</p>
+                                    <p>Implantação:R$20.000,00</p>
+                                    <p>Capital de Giro: A partir de R$20.000,00</p>
+                                    <br />
+                                    <p>TOTAL: R$ 80.000,00</p>
+                                    <p class="obs">*Varia de acordo com a região</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/FULL/03.jpg" alt="quiosque 3" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Quiosque full</div>
+                                <div class="blog-slider__text">
+                                    <p>Taxa de Franquia: R$20.000,00</p>
+                                    <p>Quiosque: Isento</p>
+                                    <p>Aluguel mensal: R$1.000,00</p>
+                                    <p>Produtos:R$20.000,00</p>
+                                    <p>Implantação:R$20.000,00</p>
+                                    <p>Capital de Giro: A partir de R$20.000,00</p>
+                                    <br />
+                                    <p>TOTAL: R$ 80.000,00</p>
+                                    <p class="obs">*Varia de acordo com a região</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blog-slider__pagination"></div>
+                </div>
+                <!-- carousel two -->
+
+                <!-- carousel three -->
+
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/LOJA/loja1.jpeg" alt="Loja touti 3" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Loja touti</div>
+                                <div class="blog-slider__text">
                                     <p>Taxa de Franquia:R$25.000,00</p>
                                     <p>Mobiliário: Isenta</p>
                                     <p>Aluguel Mensal: R$1.000,00</p>
@@ -266,13 +369,55 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/LOJA/loja2.jpeg" alt="Loja touti 3" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Loja touti</div>
+                                <div class="blog-slider__text">
+                                    <p>Taxa de Franquia:R$25.000,00</p>
+                                    <p>Mobiliário: Isenta</p>
+                                    <p>Aluguel Mensal: R$1.000,00</p>
+                                    <p>Produtos:R$15.000,00</p>
+                                    <p>Implantação:R$25.000,00</p>
+                                    <p>Capital de Giro: A partir de R$20.000,00</p>
+                                    <br />
+                                    <p>TOTAL: R$ 85.000,00</p>
+                                    <p class="obs">*Varia de acordo com a região</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/assets/images/LOJA/loja3.jpeg" alt="Loja touti 3" />
+                            </div>
+                            <div class="blog-slider__content">
+                                <div class="blog-slider__title">Loja touti</div>
+                                <div class="blog-slider__text">
+                                    <p>Taxa de Franquia:R$25.000,00</p>
+                                    <p>Mobiliário: Isenta</p>
+                                    <p>Aluguel Mensal: R$1.000,00</p>
+                                    <p>Produtos:R$15.000,00</p>
+                                    <p>Implantação:R$25.000,00</p>
+                                    <p>Capital de Giro: A partir de R$20.000,00</p>
+                                    <br />
+                                    <p>TOTAL: R$ 85.000,00</p>
+                                    <p class="obs">*Varia de acordo com a região</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                    <div class="blog-slider__pagination"></div>
                 </div>
+
                 <button type="button" class="click-me">
-                    <a href="https://github.com/ManeMaria" target="_blank">
-                        ser um franqueado
+                    <a href="#form">
+                        seja um franqueado
                     </a>
                 </button>
+            </div>
         </section>
 
     </main>
@@ -288,26 +433,18 @@
     <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
 
-        const swiper = new Swiper(".swiper", {
+        const swiper = new Swiper(".blog-slider", {
 
-            direction: "horizontal",
+            spaceBetween: 30,
+            effect: 'fade',
             loop: true,
+            mousewheel: {
+                invert: false,
+            },
 
             pagination: {
-                el: ".swiper-pagination",
-            },
-
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-
-            autoplay: {
-                delay: 3000,
+                el: '.blog-slider__pagination',
+                clickable: true,
             }
         });
     </script>
@@ -318,6 +455,8 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script nomodule src="js/swiper.config.js"></script>
+
+
 </body>
 
 </html>
