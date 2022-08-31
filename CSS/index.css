@@ -418,6 +418,7 @@ section, .container {
     }
 
     .benefits img {
+        margin: 3rem auto;
         max-width: 35rem;
     }
 
@@ -426,8 +427,9 @@ section, .container {
     }
 
     .list-benefits {
-        row-gap: 3rem;
+        row-gap: 0rem;
         font-size: 1rem;
+        align-self: center;
     }
 
     .list-benefits img {
