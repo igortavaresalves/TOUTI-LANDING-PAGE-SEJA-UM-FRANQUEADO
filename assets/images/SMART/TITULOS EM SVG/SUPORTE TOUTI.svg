@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="161.292mm" height="59.7189mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 163945.54 60701.27"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="628" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="300">
+	<font-face 
+		font-family="Gilroy Light">
+		<font-face-src>
+			<font-face-name name="Gilroy-Light"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="E" horiz-adv-x="532" d="M139.996 50.0022l0 277.998 320 0 0 50.0022 -320 0 0 272 345.001 0 0 49.9935 -397.998 0 0 -699.996 403.003 0 0 50.0022 -350.006 0z"/>
+   <glyph unicode="O" horiz-adv-x="816" d="M408 -11.0032c202.002,0 361.001,161.001 361.001,361.001 0,200 -158.999,361.001 -361.001,361.001 -202.002,0 -361.001,-161.001 -361.001,-361.001 0,-200 158.999,-361.001 361.001,-361.001zm0 51.0032c-172.997,0 -308.004,138.002 -308.004,309.998 0,172.004 135.008,309.998 308.004,309.998 172.997,0 307.996,-137.994 307.996,-309.998 0,-171.996 -134.999,-309.998 -307.996,-309.998z"/>
+   <glyph unicode="P" horiz-adv-x="587" d="M324.997 699.996l-237.998 0 0 -699.996 52.9968 0 0 267.003 185.001 0c126.006,0 218.002,92.9968 218.002,216 0,123.996 -91.9957,216.992 -218.002,216.992zm0 -382.999l-185.001 0 0 333.005 185.001 0c96,0 165.005,-70.0065 165.005,-166.999 0,-96 -69.0054,-166.006 -165.005,-166.006z"/>
+   <glyph unicode="R" horiz-adv-x="612" d="M529.001 0l60.9968 0 -173.998 293.998c89.0011,24 154.002,104 154.002,198.999 0,114.002 -93.0054,206.999 -206.999,206.999l-276.004 0 0 -699.996 52.9968 0 0 286.999 221.005 0 168 -286.999zm-389.005 650.002l223.008 0c84.9968,0 153.994,-70.0065 153.994,-157.005 0,-85.9978 -68.9968,-155.996 -153.994,-155.996l-223.008 0 0 313.001z"/>
+   <glyph unicode="S" horiz-adv-x="573" d="M300.997 -11.0032c139.003,0 230.006,76.0043 230.006,192 0,121.001 -108.004,160 -232,201.001 -100.004,33.0011 -171.003,59.0032 -171.003,142.999 0,78.0065 60.9968,134.999 157.998,134.999 100.004,0 154.002,-57.9935 180.004,-120.992l44.9968 24.9924c-34.0022,81.0011 -109.998,147.003 -225.001,147.003 -118.999,0 -211.996,-73.0011 -211.996,-187.996 0,-122.002 105.001,-155.003 221.998,-193.001 107.003,-34.0022 180.997,-66.0022 180.997,-150.006 0,-80 -58.9946,-139.996 -176,-139.996 -114.995,0 -185.994,57.0011 -209.994,140.997l-46.0065 -26.9946c32,-99.0032 125.005,-165.005 256,-165.005z"/>
+   <glyph unicode="T" horiz-adv-x="539" d="M516.997 699.996l-493.998 0 0 -49.9935 220.004 0 0 -650.002 53.9978 0 0 650.002 219.996 0 0 49.9935z"/>
+   <glyph unicode="U" horiz-adv-x="667" d="M332.997 -11.0032c154.002,0 257.001,97.0011 257.001,245.005l0 465.994 -52.9968 0 0 -465.994c0,-114.002 -70.9989,-194.002 -204.004,-194.002 -131.996,0 -202.995,80 -202.995,194.002l0 465.994 -53.0054 0 0 -465.994c0,-148.004 102.006,-245.005 256,-245.005z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gilroy Light";font-variant:normal;font-style:normal;font-weight:300;src:url("#FontID0") format(svg)}
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:url(#id1);fill-rule:nonzero}
+    .fnt0 {font-weight:300;font-size:11778.11px;font-family:'Gilroy Light'}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="36143.74" y="11408.33" width="101124.36" height="42498.18"/>
+   </clipPath>
+  <radialGradient id="id1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.953851 -0.294823 0.255583 1.10029 -2854 19749)" cx="75414.89" cy="24782.17" r="81972.82" fx="75414.89" fy="24782.17">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FEFE10"/>
+  </radialGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="466.35,3686.77 3930.1,3686.77 3930.1,4762.58 932.59,4762.58 932.59,59625.46 163012.95,59625.46 163012.95,4762.58 56425.88,4762.58 56425.88,3686.77 163945.54,3686.77 163945.54,60701.27 -0,60701.27 -0,3686.77 "/>
+  <text x="4784.43" y="8374.23"  class="fil1 fnt0">SUPORTE</text>
+  <g style="clip-path:url(#id0)">
+   <image x="36143.74" y="11408.43" width="101124.26" height="42498.07" xlink:href="SUPORTE TOUTI_Images\SUPORTE TOUTI_ImgID1.png"/>
+  </g>
+ </g>
+</svg>
