@@ -413,6 +413,10 @@ section, .container {
         margin: 0;
     }
 
+    .banner, .bg-poster-girl {
+        background-image: none;
+    }
+
     .benefits img {
         max-width: 35rem;
     }
