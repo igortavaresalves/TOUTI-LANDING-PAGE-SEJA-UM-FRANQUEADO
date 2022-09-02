@@ -318,7 +318,7 @@ section, .container {
 }
 
 .graphic {
-    margin-bottom: 30rem;
+    margin-top: 11rem;
 
 }
 
@@ -329,6 +329,7 @@ section, .container {
 
 .icon-process {
     width: 30rem;
+    margin: 0 auto;
 }
 
 /* section 4 */
@@ -459,8 +460,12 @@ section, .container {
         margin: 2rem 0;
     }
 
+    .icon-process {
+        margin: 3rem 0;
+    }
+
     .graphic {
-        margin-bottom: 0;
+        margin: 2rem;
     }
 
     .testimony {
